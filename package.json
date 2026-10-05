@@ -1,0 +1,15 @@
+{
+  "name": "janseva",
+  "version": "1.0.0",
+  "description": "Janseva AI — Municipal grievance and field-operations platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "backend\\.venv\\Scripts\\uvicorn app.main:app --reload --port 8000 --app-dir backend",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start"
+  },
+  "keywords": ["civic", "ai", "grievance", "municipal", "gis"],
+  "author": "Janseva AI",
+  "license": "Apache-2.0"
+}
